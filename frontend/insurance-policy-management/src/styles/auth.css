@@ -1,0 +1,37 @@
+.auth-bg {
+  min-height: 100vh;
+  background: url('/public/bg.jpg') no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-card {
+  width: 380px;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(3px);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.auth-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.auth-link {
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
